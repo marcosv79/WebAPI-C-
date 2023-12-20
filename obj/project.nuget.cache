@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bWSc52SsCZq0/wXUqr3ExDynrTLFYYkpeZswhF8WQh7tD+rP8mupedpcoyzoQF1frHt0KLx7ZVSNtGi9Miws4A==",
+  "dgSpecHash": "USOFE8uuMhA+Zdylzf6jcw8MxKqphdNKZxgrAGVuozG0IqiZ4uj+wMMJNfUHvYuIq9dpV0KL/QH9lB5eD6Qiuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marco\\OneDrive\\Ambiente de Trabalho\\IPCA\\3.1\\ISI\\TP2\\ISI-WebAPI\\ISI-WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\marco\\OneDrive\\Documentos\\GitHub\\WebAPI-C-\\ISI-WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marco\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -41,7 +41,7 @@ namespace ISI_WebAPI.Controllers
             return Ok(serviceResponse);
         }
 
-        [HttpPut("inativaFuncionario")]
+        [HttpPut("inativaFuncionario/{id}")]
         public async Task<ActionResult<ServiceResponse<List<FuncionarioModel>>>> InativaFuncionario(int id)
         {
             ServiceResponse<List<FuncionarioModel>> serviceResponse = await _funcionarioInterface.InativaFuncionario(id);
