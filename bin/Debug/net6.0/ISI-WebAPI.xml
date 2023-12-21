@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ISI-WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ISI_WebAPI.Controllers.FuncionarioController.GetFuncionarios">
+            <summary>
+            Devolve todos os funcionários existentes
+            </summary>
+            <returns>Dados dos funcionários</returns>
+        </member>
+        <member name="M:ISI_WebAPI.Controllers.FuncionarioController.GetFuncionarioById(System.Int32)">
+            <summary>
+            Devolve um funcionário com base no id fornecido
+            </summary>
+            <param name="id">ID de um funcionário</param>
+            <returns>Dados de um funcionário</returns>
+        </member>
+        <member name="M:ISI_WebAPI.Controllers.FuncionarioController.CreateFuncionario(ISI_WebAPI.Models.FuncionarioModel)">
+            <summary>
+            Cria um novo funcionário
+            </summary>
+            <remarks>
+            { "id": 0, "nome": "string", "apelido": "string", "departamento": "RH", "ativo": true, "turno": "Manhã", "dataCriacao": "2023-12-21T18:50:09.900Z", "dataAlteracao": "2023-12-21T18:50:09.900Z" }
+            </remarks>
+            <param name="newFuncionario">Dados do novo funcionário</param>
+            <returns>Funcionário criado</returns>
+        </member>
+        <member name="M:ISI_WebAPI.Controllers.FuncionarioController.UpdateFuncionario(ISI_WebAPI.Models.FuncionarioModel)">
+            <summary>
+            Atualiza dados de um funcionário
+            </summary>
+            <remarks>
+            { "id": 0, "nome": "string", "apelido": "string", "departamento": "RH", "ativo": true, "turno": "Manhã", "dataCriacao": "2023-12-21T18:50:09.900Z", "dataAlteracao": "2023-12-21T18:50:09.900Z" }
+            </remarks>
+            <param name="editFuncionario">Dados do funcionário atualizado</param>
+            <returns>Funcionário atualizado</returns>
+        </member>
+        <member name="M:ISI_WebAPI.Controllers.FuncionarioController.InativaFuncionario(System.Int32)">
+            <summary>
+            Inativa um funcionário
+            </summary>
+            <param name="id">ID de um funcionário</param>
+            <returns>Funcionário inativo</returns>
+        </member>
+        <member name="M:ISI_WebAPI.Controllers.FuncionarioController.DeleteFuncionario(System.Int32)">
+            <summary>
+            Remove um funcionário
+            </summary>
+            <param name="id">ID de um funcionário</param>
+            <returns></returns>
+        </member>
+        <member name="T:ISI_WebAPI.Migrations.firstmigration">
+            <inheritdoc />
+        </member>
+        <member name="M:ISI_WebAPI.Migrations.firstmigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ISI_WebAPI.Migrations.firstmigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ISI_WebAPI.Migrations.firstmigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

@@ -260,3 +260,5 @@ C:\Users\marco\OneDrive\Documentos\GitHub\WebAPI-C-\obj\Debug\net6.0\refint\ISI-
 C:\Users\marco\OneDrive\Documentos\GitHub\WebAPI-C-\obj\Debug\net6.0\ISI-WebAPI.pdb
 C:\Users\marco\OneDrive\Documentos\GitHub\WebAPI-C-\obj\Debug\net6.0\ISI-WebAPI.genruntimeconfig.cache
 C:\Users\marco\OneDrive\Documentos\GitHub\WebAPI-C-\obj\Debug\net6.0\ref\ISI-WebAPI.dll
+C:\Users\marco\OneDrive\Documentos\GitHub\WebAPI-C-\bin\Debug\net6.0\ISI-WebAPI.xml
+C:\Users\marco\OneDrive\Documentos\GitHub\WebAPI-C-\obj\Debug\net6.0\ISI-WebAPI.xml
