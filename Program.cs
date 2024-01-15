@@ -30,7 +30,7 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddScoped<IFuncionario, FuncionarioService>();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")); // conexão bd
 });
 
 builder.Services.AddCors(options =>

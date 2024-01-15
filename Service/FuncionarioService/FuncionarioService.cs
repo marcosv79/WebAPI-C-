@@ -6,7 +6,7 @@ namespace ISI_WebAPI.Service.FuncionarioService
 {
     public class FuncionarioService : IFuncionario
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context; // armazenar o contexto da bd
 
         public FuncionarioService(ApplicationDbContext context)
         {
@@ -149,7 +149,7 @@ namespace ISI_WebAPI.Service.FuncionarioService
 
             try
             {
-                FuncionarioModel funcionario = _context.Funcionarios.AsNoTracking().FirstOrDefault(x => x.Id == editFuncionario.Id);
+                FuncionarioModel funcionario = _context.Funcionarios.FirstOrDefault(x => x.Id == editFuncionario.Id);
 
                 if (funcionario == null)
                 {

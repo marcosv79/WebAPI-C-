@@ -10,6 +10,8 @@ namespace ISI_WebAPI.Controllers
     public class FuncionarioController : ControllerBase
     {
         private readonly IFuncionario _funcionarioInterface;
+        // injeção de dependência (a referência à variável só pode ser atribuída durante a inicialização)
+        // ao criar FuncionarioController é fornecida a implementação de IFuncionario
         public FuncionarioController(IFuncionario funcionarioInterface)
         {
             _funcionarioInterface = funcionarioInterface;
